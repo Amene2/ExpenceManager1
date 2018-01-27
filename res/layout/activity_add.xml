@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/text_view_pet"/>
+    <Button
+        android:id="@+id/current_date_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="افزایش حساب های موجود"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_margin="50dp"
+        android:background="@color/colorPrimary"
+        android:textColor="#FFFFFF"
+        android:textSize="40dp"
+        android:textAlignment="center"
+        >
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="0"
+            android:inputType="number"
+            android:textColor="#FFFFFF"
+            android:textSize="40dp"
+            android:textAlignment="center"
+            android:id="@+id/edt"/>
+
+    </LinearLayout>
+    <EditText
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="نام دسته بندی"
+        android:id="@+id/cat"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="آیکون دسته خود را انتخاب کنید:"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="50dp"/>
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+
+   <ImageView
+       android:layout_width="80dp"
+       android:layout_height="80dp"
+       android:src="@drawable/money"
+       android:layout_marginTop="18dp"
+       android:layout_marginRight="30dp"
+       android:layout_marginLeft="35dp"/>
+   <ImageView
+       android:layout_width="80dp"
+       android:layout_height="80dp"
+       android:src="@drawable/cheque"
+       android:layout_marginRight="30dp"/>
+   <ImageView
+       android:layout_width="80dp"
+       android:layout_height="80dp"
+       android:src="@drawable/cards"
+       android:layout_marginTop="18dp"/>
+
+
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ذخیره"
+        android:id="@+id/savep"/>
+
+
+</LinearLayout>
